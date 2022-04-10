@@ -4,7 +4,6 @@ import {
   Route,
   NavLink,
   BrowserRouter as Router,
-  Redirect
 } from "react-router-dom";
 
 import Home from "./pages/Home";
