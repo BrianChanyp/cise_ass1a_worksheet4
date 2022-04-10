@@ -1,5 +1,6 @@
 import React from "react";
 import {
+
   Routes,
   Route,
   NavLink,
@@ -9,6 +10,7 @@ import {
 import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/Submit-Article"; 
+
 import NotFoundPage from "./pages/404";
 
 const App = () =>  {
@@ -22,6 +24,7 @@ const App = () =>  {
               <li><NavLink to = "/SubmitArticle">Submit an Article</NavLink></li>
           </ul>
         <div className="content">
+
           <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route  path="/SEPractice" element={<SEPractice/>}/>
@@ -33,6 +36,5 @@ const App = () =>  {
       </Router>
   );
 }
-
 export default App;
 
