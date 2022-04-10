@@ -23,11 +23,10 @@ const App = () =>  {
           </ul>
         <div className="content">
           <Routes>
-          <Route exact path="/" element={Home}/>
-          <Route  path="/SEPractice" element={SEPractice}/>
-          <Route  path="/SubmitArticle" elementt={SubmitArticle}/>
+          <Route exact path="/" element={<Home/>}/>
+          <Route  path="/SEPractice" element={<SEPractice/>}/>
+          <Route  path="/SubmitArticle" element={<SubmitArticle/>}/>
           </Routes>
-
         </div>
       </div>
       </Router>
